@@ -15,25 +15,25 @@
     });
     $(".project").click(function () {
         $('html,body').stop().animate({
-                scrollTop: $("#project-block").offset().top
+                scrollTop: $("#project-block").offset().top - 70
             },
             'slow');
     });
     $(".android").click(function () {
         $('html,body').stop().animate({
-                scrollTop: $("#android-block").offset().top
+                scrollTop: $("#android-block").offset().top - 70
             },
             'slow');
     });
     $(".web").click(function () {
         $('html,body').stop().animate({
-                scrollTop: $("#web-block").offset().top
+                scrollTop: $("#web-block").offset().top - 70
             },
             'slow');
     });
     $(".ios").click(function () {
         $('html,body').stop().animate({
-                scrollTop: $("#ios-block").offset().top
+                scrollTop: $("#ios-block").offset().top - 70
             },
             'slow');
     });
