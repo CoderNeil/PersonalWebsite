@@ -1827,9 +1827,15 @@ body.landing {
   header {
     &.major {
       padding: 0;
+      #project-block {
+        margin-top: 0.5em;
+      }
     }
   }
 
+  .sub-header{
+    margin: 0.5em 0 0 0.5em;
+  }
   /* List */
 
   ul {
