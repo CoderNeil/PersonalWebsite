@@ -53,7 +53,7 @@
 
     $(".learnMore a").on("click", function() {
         var $this = $(this);
-        var $content = $this.parent().parent().prev("p.content");
+        var $content = $this.parent().parent().prev("div.content");
         var linkText = $this.text().toUpperCase();
 
         if(linkText === "SHOW MORE"){

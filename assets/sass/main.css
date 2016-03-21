@@ -1538,6 +1538,9 @@ header.major {
   line-height: 1.6em;
   height: 3.2em; }
 
+.content {
+  margin: 0 0 2em 0; }
+
 /* Form */
 form {
   margin: 0 0 2em 0; }
