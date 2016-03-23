@@ -1541,6 +1541,9 @@ header.major {
 .content {
   margin: 0 0 2em 0; }
 
+.list-content {
+  text-align: left; }
+
 /* Form */
 form {
   margin: 0 0 2em 0; }
