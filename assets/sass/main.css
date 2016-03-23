@@ -1538,6 +1538,12 @@ header.major {
   line-height: 1.6em;
   height: 3.2em; }
 
+.content {
+  margin: 0 0 2em 0; }
+
+.list-content {
+  text-align: left; }
+
 /* Form */
 form {
   margin: 0 0 2em 0; }
@@ -2272,7 +2278,7 @@ body.landing #page-wrapper {
 #banner {
   background-attachment: scroll, fixed;
   background-color: #666;
-  background-image: url("images/overlay.png"), url("../../images/banner.jpg");
+  background-image: url("images/overlay.png"), url("../images/banner.jpg");
   background-position: top left, center center;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
