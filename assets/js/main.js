@@ -10,7 +10,7 @@
     });
 
     $(".nav-scroll").click(function(event) {
-        console.log("bar");
+        console.log(event);
         event.preventDefault();
         $('html,body').stop(true,false).animate({
                 scrollTop: $(event.target.hash).offset().top - $(event.currentTarget).data("offset")
