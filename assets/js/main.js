@@ -17,39 +17,6 @@
             'slow');
     });
 
-    //$(".about").click(function (event) {
-    //    console.log(event.target.hash);
-    //    event.preventDefault();
-    //    $('html,body').stop(true,false).animate({
-    //            scrollTop: $("#about-block").offset().top
-    //        },
-    //        'slow');
-    //});
-    //$(".project").click(function () {
-    //    $('html,body').stop().animate({
-    //            scrollTop: $("#project-block").offset().top - 70
-    //        },
-    //        'slow');
-    //});
-    //$(".android").click(function () {
-    //    $('html,body').stop().animate({
-    //            scrollTop: $("#android-block").offset().top - 70
-    //        },
-    //        'slow');
-    //});
-    //$(".web").click(function () {
-    //    $('html,body').stop().animate({
-    //            scrollTop: $("#web-block").offset().top - 70
-    //        },
-    //        'slow');
-    //});
-    //$(".ios").click(function () {
-    //    $('html,body').stop().animate({
-    //            scrollTop: $("#ios-block").offset().top - 70
-    //        },
-    //        'slow');
-    //});
-
     $(".learnMore a").on("click", function() {
         var $this = $(this);
         var $content = $this.parent().parent().prev("div.content");
@@ -57,14 +24,9 @@
 
         if(linkText === "SHOW MORE"){
             linkText = "Show less";
-
-            //$content.addClass("showContent");
-            //$content.removeClass("hideContent");
             $content.switchClass("hideContent", "showContent", 400);
         } else {
             linkText = "Show more";
-            //$content.addClass("hideContent");
-            //$content.removeClass("showContent");
             $content.switchClass("showContent", "hideContent", 400);
         };
 
